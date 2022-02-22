@@ -1,0 +1,482 @@
+*{
+	font-family: 'Titillium Web', sans-serif;
+}
+/*Welcome section Design Start*/
+.mid{
+	width: 80%;
+	margin: auto;
+}
+.welcome{
+	background-image: url(images/hbg2.jpg);
+
+}
+.header:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.menu{
+	width: 80%;
+	float: left;
+}
+.menu ul{
+	text-align: right;
+}
+.menu ul li{
+	display: inline-block;
+
+}
+.menu ul li a{
+	color: #FFF;
+	font-size: 14px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	border-radius: 3px;
+	display: block;
+
+}
+.menu ul li a:hover{
+	background-color: #643a79;
+}
+.welcomeText{
+	text-align: center;
+}
+.welcomeText h2{
+	width: 70%;
+	margin:auto;
+	margin-top: 200px;
+	font-size: 40px;
+	color: #FFF;
+}
+.welcomeText a{
+	padding: 15px 50px;
+	background-color: #eb7d4b;
+	color: #FFF;
+	border-radius: 3px;
+	border-bottom: 5px solid #c86a40;
+	display: inline-block;
+	margin-top: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.blr{
+	width: 100%;
+	height: 100%;
+	padding-top: 60px;
+	padding-bottom: 200px;
+	background-color: rgba(0, 0, 0, .7);
+}
+/*Welcome section Design End*/
+/*Service section Design Start*/
+.service{
+	background-color: #17c2a4;
+	padding: 100px 0px;
+
+}
+.service h2:nth-child(1){
+	font-size: 40px;
+	text-align: center;
+	color: #FFF;
+}
+.service hr{
+	width: 60px;
+    margin: 15px auto;
+    border: none;
+    border-bottom: 5px solid #14a58c;
+}
+.service p{
+	width: 60%;
+	margin: auto;
+	color: #FFF;
+	text-align: center;
+}
+.serviceArea{
+	text-align: center;
+	margin-top: 20px;
+}
+.serviceBox{
+	width: 23%;
+	display: inline-block;
+}
+.serviceBox img{
+	display: block;
+	margin: auto;
+}
+.serviceBox h3{
+	text-transform: uppercase;
+	font-size: ;
+	color: #FFF;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+.serviceBox p{
+	margin: auto;
+	width: 70%;
+	color: #FFF;
+	font-size: 14px;
+	text-align: center;
+}
+
+
+
+
+/*Service section Design End*/
+
+
+/*Team member Section design Start*/
+.TeamMember{
+	background-color: #E7F1F8;
+	padding: 100px 0px;
+}
+.TeamMember h2:nth-child(1){
+	font-size: 40px;
+	text-align: center;
+	color: #3C4761;
+}
+.TeamMember hr{
+	width: 60px;
+    margin: 15px auto;
+    border: none;
+    border-bottom: 5px solid #c8d9e5;
+}
+.TeamMember p{
+	width: 60%;
+	margin: auto;
+	color: #3C4761;
+	text-align: center;
+	font-size: 14px;
+}
+.teamMemberArea{
+	text-align: center;
+	margin-top: 50px;
+}
+.member{
+	width: 23%;
+	display: inline-block;
+}
+.member img{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+}
+.member h2{
+	color: #3C4761;
+	margin-top: 20px;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.member h3{
+	font-size: 15px;
+	color: #30bae7;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+.member p{
+	margin: auto;
+	width: 80%;
+	color: #3c4761;
+	font-size: 14px;
+	text-align: center;
+}
+.social{
+	margin-top: 20px;
+}
+.social ul{
+	text-align: center;
+}
+.social ul li{
+	display: inline-block;
+}
+.social ul li a{
+	display: block;
+	padding: 10px;width: 16px;
+	height: 16px;
+	background-color: #bdd1df;
+	color: #FFF;
+	border-radius: 50%;
+	text-align: center;
+}
+/*Team member Section design End*/
+/*Skill Section Design Start*/
+.Skill{
+	padding: 100px 0px;
+}
+.Skill h2{
+	color: #3c4761;
+	font-size: 40px;
+	text-align: center;
+}
+.Skill hr{
+	width: 50px;
+	border: none;
+	border-bottom: 5px solid #dfe8ed;
+	margin: 15px auto;
+}
+.Skill p{
+	width: 40%;
+	margin: auto;
+	font-size: 14px;
+	text-align: center;
+	color: #3c4761;
+}
+.skillArea{
+	text-align: center;
+	margin-top: 50px;
+}
+.skillMap{
+	display: inline-block;
+	width: 23%;
+
+}
+.skillMap h3{
+	margin-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #3c4761;
+}
+/*Skill Section Design End*/
+
+/*Portfolio Section Design Start*/
+.Portfolio{
+	background-color: #ffdd99;
+	padding: 100px 0px;
+
+}
+.Portfolio h2{
+	font-size: 40px;
+	text-align: center;
+	color: #393939;
+}
+.Portfolio hr{
+	width: 50px;
+	margin:20px auto;
+	border: none;
+	border-bottom: 5px solid #ebc985;
+}
+.Portfolio p{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	color: #393939;
+	font-size: 14px;
+
+}
+.portMenu{
+
+}
+.portMenu ul{
+	margin: 20px 0px;
+	text-align: center;
+
+}
+.portMenu ul li{
+	display: inline-block;
+}
+.portMenu ul li a{
+	display: block;
+	padding: 7px 15px;
+	background-color: #ebc985;
+	border-radius: 3px;
+	color: #393939 ;
+}
+.portMenu ul li a:focus{
+	background-color: #FFF;
+
+}
+.portArea{
+	text-align: center;
+}
+.portBox{
+	display: inline-block;
+	width: 48%;
+	margin-bottom: 40px;
+}
+.portBox img{
+	width: 80%;
+	margin: auto;
+	display: block;
+}
+.portBox h3{
+	color: #393939;
+	text-align: center;
+	text-transform: uppercase;
+}
+.portArea > a{
+	color: #FFF;
+	background-color: #17c2a4;
+	padding: 20px 60px;
+	border-radius: 3px;
+	display: inline-block;
+	text-align: center;
+	border-bottom: 5px solid #14a58c;
+}
+/*Portfolio Section Design End*/
+
+/*Review Section Design Start*/
+.clientReview{
+	background-color: #d74680;
+	padding: 100px 0px;
+}
+.clientReview h2{
+	font-size: 40px;
+	text-align: center;
+	color: #FFF;
+}
+.clientReview hr{
+	width: 50px;
+	margin: 15px auto;
+	border: none;
+	border-bottom: 5px solid #b73c6d;
+}
+.clientReview p{
+	text-align: center;
+	color: #FFF;
+	font-size: 14px;
+}
+.clientArea{
+	margin-top: 30px;
+	text-align: center;
+}
+.clientBox{
+	display: inline-block;
+	width: 48%;
+	margin:20px auto;
+}
+.clientImg{
+	display: inline-block;
+	width: 20%;
+	margin-right: 30px;
+	vertical-align: top;
+}
+.clientImg img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+	vertical-align: top;
+}
+.clientMessege{
+	display: inline-block;
+	width: 70%;
+	text-align: left;
+
+
+}
+.clientMessege q{
+	font-size: 22px;
+	text-align: left;
+	color: #FFF;
+	font-style: italic;
+}
+.clientMessege h3{
+	color: #FFF;
+	font-size: 22px;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.clientMessege h4{
+	font-size: 14px;
+	color: #ffdd99;
+}
+/*Review Section Design End*/
+/* Comment Section Design Start*/
+.GetInTouch{
+	background-color: #3C5499;
+	padding: 100px 0px;
+}
+.GetInTouch h2{
+	font-size: 40px;
+	text-align: center;
+	color: #FFF;
+}
+.GetInTouch hr{
+	width: 50px;
+	margin: 20px auto;
+	border: none;
+	border-bottom: 5px solid  #273a71;
+}
+.GetInTouch p{
+	text-align: center;
+	font-size: 14px;
+	color: #FFF;
+}
+.CommentArea{
+	margin-top: 50px;
+}
+.CommentArea form{
+	width: 50%;
+	margin: auto;
+}
+.CommentArea form input[type="text"]{
+	width: 49%;
+	background-color: #273a71;
+	outline: none;
+	border: 1px solid #273a71;
+	box-sizing: border-box;
+	padding: 8px;
+	font-size: 14px;
+	color: #FFF;
+}
+.CommentArea form input[type="text"]:nth-child(2){
+	float: right;
+}
+.CommentArea textarea{
+	width: 100%;
+	padding: 8px;
+	background-color: #273a71;
+	outline: none;
+	border: 1px solid #273a71;
+	box-sizing: border-box;
+	font-size: 14px;
+	color: #FFF;
+	margin-top: 10px;
+	min-height: 100px;
+}
+.CommentArea input[type="submit"]{
+	padding: 10px 30px;
+	background-color: #30bae7;
+	color: #FFF;
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	margin: 20px auto;
+	border: none;
+	border-bottom: 3px solid #299ec5;
+	outline: none;
+	border-radius: 3px;
+	font-weight: bold;
+}
+
+/* Comment Section Design End*/
+
+/*Footer Section Design Start*/
+.footer{
+	background-color: #344B8E;
+	padding: 20px;
+}
+.footer ul{
+	text-align: center;
+}
+.footer ul li{
+	display: inline-block;
+}
+.footer ul li a{
+	display: block;
+	padding: 0px 20px;
+	color: #FFF;font-size: 20px;
+
+}
+.footer ul li a:hover{
+	color: #30bae7;
+}
+/*Footer Section Design End*/
